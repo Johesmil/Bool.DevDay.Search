@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="5b7406a6-0567-4c4a-a380-f0f9f6260a89" 
+        solutionId="5b7406a6-0567-4c4a-a380-f0f9f6260a89" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Bool.DevDay.Search"
+        sharePointProductVersion="15.0">
+</package>
