@@ -5,15 +5,15 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bool.DevDay.Search", "Bool.DevDay.Search.csproj", "{7C113328-15CB-42B4-A83F-66D75457D05C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{7F939BA0-33EA-4CEE-9C95-E60FFDEA1CBD}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Configuration.Main.xml = Scripts\Configuration.Main.xml
+		Scripts\Module.Main.psm1 = Scripts\Module.Main.psm1
+		Scripts\Setup.SearchCenter.ps1 = Scripts\Setup.SearchCenter.ps1
+		Scripts\Setup.SearchService.ps1 = Scripts\Setup.SearchService.ps1
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://10.50.6.116:8080/tfs/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Bool.DevDay.Search.csproj
-		SccLocalPath1 = .
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

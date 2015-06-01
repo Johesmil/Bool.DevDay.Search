@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Configuration>
+  <Environment></Environment>
+  <ServiceApplications>
+    <SearchServiceApplication>
+      <Name>Search Service Application</Name>
+    </SearchServiceApplication>
+  </ServiceApplications>
+  <SearchCenter>
+    <Url>http://dev/search</Url>
+  </SearchCenter>
+</Configuration>

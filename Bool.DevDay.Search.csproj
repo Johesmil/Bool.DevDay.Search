@@ -55,10 +55,25 @@
     <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\SearchCenterSetupSite\SearchCenterSetupSite.EventReceiver.cs">
+      <DependentUpon>SearchCenterSetupSite.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\SearchCenterSetupWeb\SearchCenterSetupWeb.EventReceiver.cs">
+      <DependentUpon>SearchCenterSetupWeb.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Features\SearchCenterSetupWeb\SearchCenterSetupWeb.feature">
+      <FeatureId>{5510bb93-7256-4712-98de-de6960d89f42}</FeatureId>
+    </None>
+    <None Include="Features\SearchCenterSetupSite\SearchCenterSetupSite.feature">
+      <FeatureId>{b19ffe4f-08fe-4a4a-9811-d8a127ba3d48}</FeatureId>
+    </None>
     <None Include="key.snk" />
+    <None Include="Modules\DisplayTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3ccf8fa7-ec14-4b5b-9358-5f96dbb905e2}</SharePointProjectItemId>
+    </None>
     <None Include="Package\Package.package">
       <PackageId>{5b7406a6-0567-4c4a-a380-f0f9f6260a89}</PackageId>
     </None>
@@ -66,8 +81,17 @@
       <DependentUpon>Package.package</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Features\" />
+    <Content Include="Features\SearchCenterSetupWeb\SearchCenterSetupWeb.Template.xml">
+      <DependentUpon>SearchCenterSetupWeb.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\SearchCenterSetupSite\SearchCenterSetupSite.Template.xml">
+      <DependentUpon>SearchCenterSetupSite.feature</DependentUpon>
+    </Content>
+    <Content Include="Modules\DisplayTemplates\Bool_SearchResult.js" />
+    <Content Include="Modules\DisplayTemplates\Elements.xml" />
+    <Content Include="Modules\DisplayTemplates\Bool_Refiner.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

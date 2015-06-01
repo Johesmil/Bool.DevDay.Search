@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="5b7406a6-0567-4c4a-a380-f0f9f6260a89" 
-        solutionId="5b7406a6-0567-4c4a-a380-f0f9f6260a89" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="Bool.DevDay.Search"
-        sharePointProductVersion="15.0">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="5b7406a6-0567-4c4a-a380-f0f9f6260a89" solutionId="5b7406a6-0567-4c4a-a380-f0f9f6260a89" resetWebServer="false" sharePointProductVersion="15.0" name="Bool.DevDay.Search" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="b19ffe4f-08fe-4a4a-9811-d8a127ba3d48" />
+    <featureReference itemId="5510bb93-7256-4712-98de-de6960d89f42" />
+  </features>
 </package>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="DisplayTemplates" Url="_catalogs/masterpage/Display Templates">
+
+    <File Path="DisplayTemplates\Bool_Refiner.js" Url="Filters/Bool_Refiner.js" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    
+    <File Path="DisplayTemplates\Bool_SearchResult.js" Url="Search/Bool_SearchResult.html" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+  </Module>
+</Elements>
