@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{7F93
 	ProjectSection(SolutionItems) = preProject
 		Scripts\Configuration.Main.xml = Scripts\Configuration.Main.xml
 		Scripts\Module.Main.psm1 = Scripts\Module.Main.psm1
+		Scripts\Module.SiteSearchConfiguration.psm1 = Scripts\Module.SiteSearchConfiguration.psm1
 		Scripts\Setup.SearchCenter.ps1 = Scripts\Setup.SearchCenter.ps1
 		Scripts\Setup.SearchService.ps1 = Scripts\Setup.SearchService.ps1
 	EndProjectSection
