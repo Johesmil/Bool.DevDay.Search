@@ -4,6 +4,14 @@
   <ServiceApplications>
     <SearchServiceApplication>
       <Name>Search Service Application</Name>
+      <ContentSources>
+        <ContentSource>
+          <Name>Files</Name>
+          <Type></Type>
+          <StartAddresses>\\DEV.booldevlocal.local\Files</StartAddresses>
+          <CrawlBehavior>CrawlVirtualServers</CrawlBehavior>
+        </ContentSource>
+      </ContentSources>
       <Synonyms>
         <ThesaurusFilePath>Configuration.Synonyms.csv</ThesaurusFilePath>
       </Synonyms>
