@@ -3,7 +3,7 @@ if ((Get-PSSnapin "Microsoft.SharePoint.PowerShell" -ErrorAction SilentlyContinu
 }
 
 #region Configuration
-function Load-Configuration($ConfigFile)
+function Initialize-Configuration($ConfigFile)
 {
 	Write-Init "Loading configuration..."
 	[xml]$XmlConfiguration = (Get-Content .\$ConfigFile)

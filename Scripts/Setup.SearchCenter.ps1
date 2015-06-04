@@ -1,5 +1,5 @@
 Import-Module .\Module.Main.psm1
-LoadConfiguration -CinfigFile "Configuration.Main.xml"
+Initialize-Configuration -CinfigFile "Configuration.Main.xml"
 
 #https://msdn.microsoft.com/library/c166ecdd-7f93-4bbb-b543-2687992dd2bc.aspx
 

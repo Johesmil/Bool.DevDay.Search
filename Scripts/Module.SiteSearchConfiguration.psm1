@@ -1,5 +1,5 @@
 Import-Module .\Module.Main.psm1
-LoadConfiguration -ConfigFile "Configuration.Main.xml"
+Initialize-Configuration -ConfigFile "Configuration.Main.xml"
 
 function Export-SPWebSearchConfiguration($webUrl) {
 	$web = Get-SPWeb $webUrl;

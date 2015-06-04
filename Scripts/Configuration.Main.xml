@@ -4,9 +4,9 @@
   <ServiceApplications>
     <SearchServiceApplication>
       <Name>Search Service Application</Name>
-	  <Synonyms>
-		<ThesaurusFilePath>Configuration.Synonyms.csv</ThesaurusFilePath>
-	  </Synonyms>
+      <Synonyms>
+        <ThesaurusFilePath>Configuration.Synonyms.csv</ThesaurusFilePath>
+      </Synonyms>
     </SearchServiceApplication>
   </ServiceApplications>
   <SearchCenter>
