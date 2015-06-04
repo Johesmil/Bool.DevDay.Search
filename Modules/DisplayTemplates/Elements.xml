@@ -5,5 +5,6 @@
     <File Path="DisplayTemplates\Bool_Refiner.js" Url="Filters/Bool_Refiner.js" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
     
     <File Path="DisplayTemplates\Bool_SearchResult.js" Url="Search/Bool_SearchResult.html" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="DisplayTemplates\Filter_Default_Custom.html" Url="DisplayTemplates/Filter_Default_Custom.html" />
   </Module>
 </Elements>

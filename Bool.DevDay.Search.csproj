@@ -92,6 +92,7 @@
     <Content Include="Modules\DisplayTemplates\Bool_SearchResult.js" />
     <Content Include="Modules\DisplayTemplates\Elements.xml" />
     <Content Include="Modules\DisplayTemplates\Bool_Refiner.js" />
+    <Content Include="Modules\DisplayTemplates\Filter_Default_Custom.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

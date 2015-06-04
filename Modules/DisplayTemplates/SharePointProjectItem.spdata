@@ -4,5 +4,6 @@
     <ProjectItemFile Source="Elements.xml" Target="DisplayTemplates\" Type="ElementManifest" />
     <ProjectItemFile Source="Bool_Refiner.js" Target="DisplayTemplates\" Type="ElementFile" />
     <ProjectItemFile Source="Bool_SearchResult.js" Target="DisplayTemplates\" Type="ElementFile" />
+    <ProjectItemFile Source="Filter_Default_Custom.html" Target="DisplayTemplates\" Type="ElementFile" />
   </Files>
 </ProjectItem>
