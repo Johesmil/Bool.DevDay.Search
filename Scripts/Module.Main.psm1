@@ -3,13 +3,18 @@ if ((Get-PSSnapin "Microsoft.SharePoint.PowerShell" -ErrorAction SilentlyContinu
 }
 
 #region Configuration
-function LoadConfiguration($ConfigFile)
+function Initialize-Configuration($ConfigFile)
 {
 	Write-Init "Loading configuration..."
 	[xml]$XmlConfiguration = (Get-Content .\$ConfigFile)
-
-	$global:SearchServiceApplicationName = $XmlConfiguration.Configuration.ServiceApplications.MetadataServiceApplication.Name
+	
+	# Search Service Application
+	$global:SearchServiceApplicationName = $XmlConfiguration.Configuration.ServiceApplications.SearchServiceApplication.Name
+	$global:SearchSynonymsThesaurusPath = $XmlConfiguration.Configuration.ServiceApplications.SearchServiceApplication.Synonyms.ThesaurusFilePath
+	
+	# Search Center
 	$global:SearchCenterUrl = $XmlConfiguration.Configuration.SearchCenter.Url
+	
 	Write-Success "Configuration loaded"
 }
 #endregion Configuration
