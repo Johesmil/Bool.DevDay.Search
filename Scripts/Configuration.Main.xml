@@ -7,11 +7,13 @@
       <ContentSources>
         <ContentSource>
           <Name>Files</Name>
-          <Type></Type>
+          <Type>File</Type>
           <StartAddresses>\\DEV.booldevlocal.local\Files</StartAddresses>
           <CrawlBehavior>CrawlVirtualServers</CrawlBehavior>
         </ContentSource>
       </ContentSources>
+      <CrawlSchemas>
+      </CrawlSchemas>
       <Synonyms>
         <ThesaurusFilePath>Configuration.Synonyms.csv</ThesaurusFilePath>
       </Synonyms>
